@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="active">
+        <a href="#" class="logo">Maksym</a>
+
+        <i class='bx bx-x' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Info</a>
+            <a href="#">Price</a>
+            <a href="#" class="contactLink">Contact</a>
+        </nav>
+    </header>
+
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Hello! I'm Maksym</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Coder">Coder</span>
+                <span style="--i:3;" data-text="Web Developer">Web Developer</span>
+                <span style="--i:2;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:1;" data-text="Fullstack Developer">Fullstack Developer</span>
+            </h2>
+            <p>I’m a web developer passionate about creating beautiful and functional websites. I work with HTML, CSS, and JavaScript, and I utilize modern libraries and frameworks like ScrollMagic, AOS, jQuery, iCheck, and Alertify to add interactivity and dynamic effects to your projects.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram'></i></a>
+                    <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Images/home_image-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="heading">My <span>services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Frontend development involves building the visual and interactive parts of a website that users see and interact with, using HTML, CSS, and JavaScript. It ensures a website is responsive and works well on different devices and browsers.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Working with your design</h3>
+                <p>I can bring your design to life by converting your mockups or design files into fully functional websites. Whether you have a complete design or just a concept, I will ensure that it’s translated accurately into code, preserving the look and feel while making it interactive, responsive, and user-friendly.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette' ></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Figma, Wix, Wordpress and etc. layouts</h3>
+                <p>I work with a variety of design tools and platforms, including Figma, Wix, and WordPress, to bring your vision to life. Whether you have a custom design in Figma, need a quick start with a Wix template, or want to build a WordPress site.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-trending-up' ></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>I create websites that look great on any device, whether it's a desktop, tablet, or smartphone. Using responsive design techniques, I ensure your site adapts to different screen sizes, providing a seamless and user-friendly experience across all devices.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-message-dots'></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Adding Forms with Email Submission</h3>
+                <p>I can integrate contact forms on your website that allow users to submit inquiries directly to your email. Whether it's a simple contact form or a more complex one, I ensure smooth functionality, making it easy for you to receive messages and interact with your visitors.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-visual-studio'></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Animations</h3>
+                <p>I can add engaging animations to your website to make it more interactive and visually appealing. Using libraries like AOS, ScrollMagic, and custom JavaScript, I bring elements to life with smooth transitions, scrolling effects, and other dynamic features to enhance the user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why hire me?</h2>
+                <p class="desc">Hiring me means choosing a developer who is committed to delivering high-quality results with a focus on user experience and long-term success.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Technologies</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                    <div class="resume-detail experience active">
+                        <h2 class="heading">My <span>Experience</span></h2>
+                        <p class="desc">I have experience with HTML, CSS, JavaScript, jQuery, AOS, ScrollMagic, and platforms like WordPress and Wix. I specialize in responsive design, creating interactive features, and optimizing website performance. I’m always learning and staying up to date with the latest web technologies.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2024 - Present</p>
+                                <h3>Frontend Developer</h3>
+                                <p class="company">JavaScript Libraries</p>
+                                <p>I learned libraries like jQuery, AOS, and ScrollMagic to add interactivity and animations, enhancing user experience.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2023 - 2024</p>
+                                <h3>Frontend Developer</h3>
+                                <p class="company">JavaScript</p>
+                                <p>I used JavaScript to add interactivity and dynamic features, enhancing user experience.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2022 - 2023</p>
+                                <h3>Junior Developer</h3>
+                                <p class="company">HTML5 and CSS3</p>
+                                <p>I used HTML5 and CSS3 to build responsive, structured, and visually appealing websites.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2021 - 2022</p>
+                                <h3>Game Dev Junior</h3>
+                                <p class="company">Unity C#</p>
+                                <p>C# in Unity taught me key programming skills, which made switching to JavaScript easier.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2020 - 2021</p>
+                                <h3>Game Dev Beginner</h3>
+                                <p class="company">Unity C#</p>
+                                <p>C# in Unity helped me understand programming concepts, easing my transition to JavaScript.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - 2020</p>
+                                <h3>Python Junior</h3>
+                                <p class="company">Python</p>
+                                <p>Working with Python helped me grasp programming fundamentals, making it easier to work with JavaScript later.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-detail education">
+                        <h2 class="heading"><span>Technologies</span> i worked with</h2>
+                        <p class="desc">I’ve gained experience working with a wide range of technologies, allowing me to deliver flexible and efficient solutions for various projects.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>API & JSON Data Parsing</h3>
+                                <p class="company">Online Course</p>
+                                <p>I integrate APIs and parse JSON to load dynamic content efficiently.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>Local Storage</h3>
+                                <p class="company">Online Course</p>
+                                <p>I use LocalStorage to store data locally, improving performance and user experience.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>Scroll Magic & AOS Libs</h3>
+                                <p class="company">Online Course</p>
+                                <p>I use ScrollMagic and AOS to create smooth scroll animations and interactive effects.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>jQuery</h3>
+                                <p class="company">Online Course</p>
+                                <p>I use jQuery to simplify DOM manipulation, events, and animations for dynamic websites.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>Java Script</h3>
+                                <p class="company">Online Course</p>
+                                <p>I use JavaScript to add interactivity, dynamic content, and enhance user experience.</p>
+                            </div>
+
+                            <div class="resume-item">
+                                <p class="year">2019 - Present</p>
+                                <h3>HTML5 & CSS3</h3>
+                                <p class="company">Self-study</p>
+                                <p>I use HTML5 and CSS3 to create responsive, structured, and visually appealing websites.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-detail skills">
+                        <h2 class="heading">My <span>Skills</span></h2>
+                        <p class="desc">Here are a few of the things i am familiar with for more grammatical work with websites.</p>
+
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <i class='bx bxl-html5' ></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-css3' ></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-javascript' ></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-library' ></i>
+                                <span>Libraries</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-server' ></i>
+                                <span>API</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxs-data' ></i>
+                                <span>JSON Parsing</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-nodejs'></i>
+                                <span>Node JS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-jquery' ></i>
+                                <span>JQuery</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-detail about">
+                        <h2 class="heading">About <span>Me</span></h2>
+                        <p class="desc">These are my details and convenient ways for you to contact me.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p>Name <span>Maksym</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Experience <span>1 Year</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Phone <span>(+353) 87 001 8197</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Nationality <span>Ukrainian</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Freelance <span>Available</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Telegram <span>@MaksymWebDev</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Languages <span>English, Ukrainian, Russian</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Full Time <span>Unavailable</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Email <span>maksymwebdev@gmail.com</span></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2 class="heading">Price <span>List</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Single-page Landing Page:</h3>
+                    <p>A simple and stylish page to showcase your product or service.</p>
+                    <div class="tech">
+                        <p>Starting at €100</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Website with 2–5 Pages:</h3>
+                    <p>Perfect for small businesses or personal portfolios.</p>
+                    <div class="tech">
+                        <p>Starting at €250</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Website with 6+ Pages:</h3>
+                    <p>Ideal for corporate websites or larger projects.</p>
+                    <div class="tech">
+                        <p>Starting at €400</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Contact Form <br> (Email Submission):</h3>
+                    <p>Configuration and integration of a form with your email system.</p>
+                    <div class="tech">
+                        <p> + €50</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Scroll, JavaScript and CSS Animations</h3>
+                    <p>Implementation of smooth animations and interactive effects to enhance user experience and engagement.</p>
+                    <div class="tech">
+                        <p> + €50</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Сonclusion</h3>
+                    <p>The final price depends on the project’s complexity and your specific requirements. Let’s discuss the details to find the best solution for you!</p>
+                    <div class="tech">
+                        <p>Thank you for choosing me</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://t.me/MaksymWebDev" target="_blank"><i class='bx bxl-telegram' ></i><span>Contact Telegram</span></a>
+                        <a href="#" class="emailLink"><i class='bx bxl-gmail' ></i><span>Send a Message</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="Images/portfolio1.jpg" alt="Project image">
+                        </div>
+                        <div class="img-item">
+                            <img src="Images/portfolio2.jpg" alt="Project image">
+                        </div>
+                        <div class="img-item">
+                            <img src="Images/portfolio3.jpg" alt="Project image">
+                        </div>
+                        <div class="img-item">
+                            <img src="Images/portfolio4.jpg" alt="Project image">
+                        </div>
+                        <div class="img-item">
+                            <img src="Images/portfolio5.jpg" alt="Project image">
+                        </div>
+                        <div class="img-item">
+                            <img src="Images/portfolio6.jpg" alt="Project image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Ready to bring your project to life? Reach out to me anytime via Telegram for quick communication or use the contact form on this website. I’m here to discuss your ideas and turn them into reality!</p>
+                <div class="contact-detail">  
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+353) 87 001 8197</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">  
+                    <i class='bx bxs-envelope' ></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p class="contact-email" href="">maksymwebdev@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">  
+                    <i class='bx bxl-telegram'></i>
+                    <div class="detail">
+                        <p>Telegram</p>
+                        <a href="https://t.me/MaksymWebDev" target="_blank">@MaksymWebDev</a>
+                    </div>
+                </div>
+
+                <div class="contact-detail">  
+                    <i class='bx bxl-whatsapp'></i>
+                    <div class="detail">
+                        <p>WhatsApp</p>
+                        <a href="https://api.whatsapp.com/send?phone=3530870018197" target="_blank">WhatsApp Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" id="name" placeholder="Name" required>
+                        <input type="text" id="email" placeholder="Email Adress" required>
+                        <input type="text" id="telegram" placeholder="Telegram(optional)">
+                        <input type="text" id="subject" placeholder="Email Subject" required>
+                        <textarea name="" id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn contact-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
